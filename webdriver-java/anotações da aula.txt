@@ -1,0 +1,19 @@
+toda classe de teste tem o sufixo Test por padrão do Junit
+
+tdo metodo de teste não pode retornar valor - por isso que os metodos precisam ser do tipo void
+
+O nome do metodo deve conter o objetivo do teste
+
+testes precisam ser validados, com o junit se usa o Assert, geralmente Assert.Equals, ele precisa que voce ponha o valor
+que voce espera e o valor atual
+
+Posso mudar a importação do Assert para import static org.junit.Assert.*; com isso vou dizer que quero fazer uma importação
+estatica de todos os metodos dentro daquela classe e ai não preciso por o Assert, ficando apenas assertEquals() no codigo em si
+
+(Chrome deu um problema, aonde o teste nao abria, porque o binario do chrome nao era achado, ele tem uma caminho padrao para buscar
+ em users/appdata/chrome... e ele nao estava lá, precisei fazer umas auterações no codigo, ultilizando a classe chrome options. 
+https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver#requirements // 
+https://stackoverflow.com/questions/50138615/webdriverexception-unknown-error-cannot-find-chrome-binary-error-with-selenium //
+para saber mais entrar nesses links)
+
+
