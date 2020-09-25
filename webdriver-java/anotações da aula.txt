@@ -16,4 +16,11 @@ https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver#requirements //
 https://stackoverflow.com/questions/50138615/webdriverexception-unknown-error-cannot-find-chrome-binary-error-with-selenium //
 para saber mais entrar nesses links)
 
+xpath --- // quer dizer, procure emtoda a página. / procure exatamente o elemento filho 
+[colchete >> parametro do elemento 
+ex: //div[@id='moredata'] >isso quer dizquer que vai procurar em toda a pagina uma div com o paremetro de id = moredata
+tambem poderia ser feito com *, ddizendo //*[@id='moredata'], iria mostrar qualquer elemento que tenha um atributo id= moredata
+
+
+
 
