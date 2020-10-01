@@ -22,6 +22,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import suporte.Generetor;
 import suporte.Screenshot;
+import suporte.Web;
 
 import java.util.concurrent.TimeUnit;
 
@@ -37,13 +38,8 @@ public class informacoesUsarioTest {
 
     @Before
     public void setUP(){
-        ChromeOptions options = new ChromeOptions();
-        options.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"); //seta o binario do chrome
-        navegador = new ChromeDriver(options); // abre o navegador
-        navegador.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        navegador = Web.createChrome();
 
-        //Navegando para pagina do taskit
-        navegador.get("http://www.juliodelima.com.br/taskit");
         //clicar no link que possui o texto "sing in"
         //Exemplo de outra forma > WebElement linkSignIn = navegador.findElement(By.linkText("Sign in")).click();
         navegador.findElement(By.linkText("Sign in")).click();
@@ -68,7 +64,9 @@ public class informacoesUsarioTest {
 
     }
     @Test
-    public void testAdicionarUmaInformacaoAdcionalDoUsuario(@Param(name="tipo")String tipo, @Param(name="contato")String contato, @Param(name="mensagem")String mensagemEsperada) {
+    public void testAdicionarUmaInformacaoAdcionalDoUsuario(@Param(name="tipo")String tipo,
+                                                            @Param(name="contato")String contato,
+                                                            @Param(name="mensagem")String mensagemEsperada) {
 
         //CLICAR NO BOTÃO ATRAVES DO SEU XPATH //button[@data-target="addmoredata"]
         navegador.findElement(By.xpath("//button[@data-target=\"addmoredata\"]")).click();

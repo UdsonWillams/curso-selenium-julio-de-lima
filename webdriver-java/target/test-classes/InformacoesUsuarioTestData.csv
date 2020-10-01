@@ -1,6 +1,6 @@
-testAdicionarUmaInformacaoAdcionalDoUsuario,tipo,contato,mensagem,Duration(ms)
-"",Phone,+5511989891125,Your contact has been added!,581.0
-"",Phone,+5511989891126,Your contact has been added!,529.0
-"",Phone,+5511989891127,Your contact has been added!,571.0
-"",E-mail,udson1@gmail.com,Your contact has been added!,538.0
-"",E-mail,udson2@gmail.com,Your contact has been added!,565.0
+testAdicionarUmaInformacaoAdcionalDoUsuario,tipo,contato,mensagem
+"",Phone,+5511989891125,Your contact has been added!
+"",Phone,+5511989891126,Your contact has been added!
+"",Phone,+5511989891127,Your contact has been added!
+"",E-mail,udson1@gmail.com,Your contact has been added!
+"",E-mail,udson2@gmail.com,Your contact has been added!
