@@ -1,5 +1,5 @@
-testAdicionarUmaInformacaoAdcionalDoUsuario,login,senha,tipo,contato,mensagem,Duration(ms)
-"",julio0001,123456,Phone,+5511999998888,Your contact has been added!,2054.0
-"",julio0001,123456,Phone,+5511999998889,Your contact has been added!,2107.0
-"",julio0001,123456,E-mail,oie@gmail.com,Your contact has been added!,1950.0
-"",julio0001,123456,E-mail,alaide@gmail.com,Your contact has been added!,2040.0
+testAdicionarUmaInformacaoAdcionalDoUsuario,login,senha,tipo,contato,mensagem,Duration(ms),Duration(ms),Duration(ms),Duration(ms)
+"",julio0001,123456,Phone,+5511999998888,Your contact has been added!,1908.0,1908.0,1908.0,1908.0
+"",julio0001,123456,Phone,+5511999998889,Your contact has been added!,1880.0,1880.0,1880.0,1880.0
+"",julio0001,123456,E-mail,oie@gmail.com,Your contact has been added!,1827.0,1827.0,1827.0,1827.0
+"",julio0001,123456,E-mail,alaide@gmail.com,Your contact has been added!,1896.0,1896.0,1896.0,1896.0
